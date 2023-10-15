@@ -1,0 +1,82 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "place",
+              "type": "AMAZON.City"
+            }
+          ],
+          "name": "FutureWeatherIntent",
+          "samples": [
+            "What will the weather be in {place} tomorrow"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "city",
+              "type": "AMAZON.City"
+            }
+          ],
+          "name": "testintent",
+          "samples": [
+            "ask test what {city}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "place",
+              "type": "AMAZON.City"
+            }
+          ],
+          "name": "CurrentWeatherIntent",
+          "samples": [
+            "What is the weather in {place}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "YourCityWeather",
+          "samples": [
+            "What is the weather in my city"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "my weather"
+    }
+  }
+}
